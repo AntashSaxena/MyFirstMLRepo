@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 
-# Load the Iris dataset
+# Load the Iris dataset Iris
 iris = datasets.load_iris()
 X = iris.data  # Features
 y = iris.target  # Labels

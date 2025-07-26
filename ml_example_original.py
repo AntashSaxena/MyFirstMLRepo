@@ -23,8 +23,10 @@ y_pred = model.predict(X_test)
 
 # Calculate accuracy
 accuracy = accuracy_score(y_test, y_pred)
+
 #Calculate F1 Score
 f1 = f1_score(y_test, y_pred, average='macro')
+
 # Print the accuracy
 print ('Accuracy: ', accuracy*100)
 
